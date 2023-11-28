@@ -1,0 +1,445 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.imgs{
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.4em;
+    border-bottom: 2px solid gainsboro;
+}
+
+.logo{
+    margin-left: 1em;
+    width: 60px;
+    height: auto;
+}
+
+nav a{
+    margin-left: 1.2em;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.more__{
+    color: #ff764d;
+}
+
+.other-nav-links{
+    margin-left: auto;
+}
+
+.other-nav-links a{
+    font-family: sans-serif;
+    margin-right: 1.2em;
+}
+
+.free_live{
+    color: blue;
+    font-weight: bold;
+}
+
+.career-links{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 11px;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.about_{
+    color: #ff764d;
+}
+
+.career-links a{
+    margin-left: 1.2em;
+    font-family:sans-serif;
+}
+
+.main-image-container{
+    position: relative;
+    text-align: center;
+}
+
+.main-image-container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff764d;
+    font-size: 6em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.main-image{
+    margin: 0 auto;
+    display: block;
+    width: 80vw;
+    height: 750px;
+    object-fit: cover;
+}
+
+.description-1 a{
+    color:blue;
+}
+
+.description-1{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.big-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.3em;
+}
+
+.small-text{
+    font-size: 1.17em;
+}
+
+.collage-1{
+    position: relative;
+    height: 900px;
+}
+
+.yellow-box{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #fbffa7;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.collage-1-image-1{
+    height: 45%;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(0, -50%);
+}
+
+.collage-1-image-2{
+    height: 55%;
+    width: 40%;
+    position: absolute;
+    top: 24%;
+    left: 3%;
+}
+
+.description-2{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.video{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.description-3{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.collage-2{
+    position: relative;
+    height: 1000px;
+    margin-bottom: 2em;
+}
+
+.green-box{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #b6ffc0;
+}
+
+.collage-2-image-1{
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    transform: translate(0, -50%);
+    height: 30%;
+    width: 30%;
+}
+
+.collage-2-image-2{
+    position: absolute;
+    left: 8%;
+    top: 70%;
+    transform: translate(0, -50%);
+    height: 30%;
+    width: 30%;
+}
+
+.collage-2-image-3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 50%;
+    width: 40%;
+}
+
+.description-4{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.radio{
+    width: 85vw;
+    height: 1000px;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.description-5{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.small-1{
+    margin-bottom: 2em;
+}
+
+.collage-3{
+    position: relative;
+}
+
+.purple-box{
+    margin: 0 auto;
+    width: 60vw;
+    height: 1000px;
+    background-color: #d5b3ff;
+}
+
+.collage-3-image-1{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 40%;
+    height: 50%;
+}
+
+.collage-3-image-2{
+    position: absolute;
+    left: 10%;
+    top: 23%;
+    height: 35%;
+    width: 30%;
+}
+
+.description-6{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.collage-4{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    height: 650px;
+    margin-bottom: 12em;
+}
+
+.collage-4-image-1{
+    width: 50%;
+    height: auto;
+}
+
+.blue-box{
+    width: 50%;
+    background-color: #b1c5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6em;
+}
+
+.latest-jobs{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.3em;
+}
+
+.footer-grid{
+    border-top: 2px solid gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "title title title"
+    "socials education newsletter"
+    "community community community";
+    padding-left: 8em;
+    padding-right: 4em;
+}
+
+.company-name{
+    grid-area: title;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.socials{
+    grid-area: socials;
+    font-size: 1.1em;
+}
+
+.socials p{
+    margin-bottom: 0.3rem;
+}
+
+.social-links{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.social-links img{
+    width: 40px;
+}
+
+.education{
+    grid-area: education;
+}
+
+.education p{
+    margin-bottom: 0.3rem;
+}
+
+.newsletter{
+    grid-area: newsletter;
+}
+
+.newsletter p {
+    margin-bottom: 0.3rem;
+}
+
+.community{
+    grid-area: community;
+}
+
+.community p{
+    margin-bottom: 0.3rem;
+}
+
+footer {
+    display: flex;
+    margin-left: 6.5em;
+    margin-bottom: 5em;
+}
+
+.final-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: 1em;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.last-logo{
+    margin-top: -13px;
+}
+
+.sign_up{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
+.sign_up:hover{
+    background-color: black;
+    color: white;
+    transition: 250ms;
+}
